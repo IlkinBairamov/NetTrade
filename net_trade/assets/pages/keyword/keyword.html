@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../assets/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <script src="https://kit.fontawesome.com/6b69767605.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <!-- Sidebar -->
+    <nav
+        id="sidebarMenu"
+        class="collapse d-lg-block collapse bg-white">
+        <div class="position-sticky">
+            <div class="list-group list-group-flush mx-3 mt-4">
+            <ul class="navbar-nav ms-5  flex-row login-sm">
+                <li class="nav-item">
+                    <a class="nav-link nav-button" aria-current="page" href="#">Login</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link primary-button" href="#">Sign up</a>
+                </li>
+            </ul>
+            <a
+                id="sidebar-item"
+                href="./../../../index.html"
+                class="list-group-item list-group-item-action py-2 ripple"
+                aria-current="true"
+                >
+                <i class="fa-solid fa-house"></i><span>Home Page</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="../../../assets/pages/mydemands/demand.html"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="fa-solid fa-earth-americas"></i><span>My Demands</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                ><i class="fa-solid fa-ticket"></i><span>My Offers</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="../myAds/myAds.html"
+                class="list-group-item list-group-item-action py-2 ripple"
+                ><i class="fa-solid fa-rectangle-ad"></i><span>My Ads</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                >
+                <i class="fa-solid fa-address-card"></i><span>Management</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="#"
+                class="list-group-item list-group-item-action py-2 ripple"
+                ><i class="fa-solid fa-chart-simple"></i><span>Statistics</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="./../favorite/favorite.html"
+                class="list-group-item list-group-item-action py-2 ripple"
+                ><i class="fa-solid fa-heart"></i><span>Favourites</span>
+            </a>
+            <a
+                id="sidebar-item"
+                href="./../keyword/keyword.html"
+                class="list-group-item list-group-item-action py-2 ripple"
+                ><i class="fa-solid fa-key"></i><span>Keywords</span>
+            </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav
+    id="main-navbar"
+    class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+    >
+    <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#sidebarMenu"
+                aria-controls="sidebarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <i class="fas fa-bars"></i>
+            </button>
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img
+            src="../../../assets/images/Vector.png"
+            />
+            <span>Net</span>
+            Trade
+    </a>
+        <ul class="navbar-nav ms-5 flex-row login-lg">
+            <li class="nav-item">
+                <a class="nav-link nav-button" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link primary-button" href="#">Sign up</a>
+            </li>
+        </ul>
+        <!-- Right links -->
+            <ul class="navbar-nav nav-right ms-auto d-flex flex-row">
+            <li class="nav-item">
+                <a class="nav-link membership nav-link-lg" aria-current="page" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.6 9.6H2.4V2.4H21.6M21.6 15.6H2.4V13.2H21.6M21.6 0H2.4C1.068 0 0 1.068 0 2.4V15.6C0 16.932 1.068 18 2.4 18H7.2V24L12 21.6L16.8 24V18H21.6C22.932 18 24 16.932 24 15.6V2.4C24 1.068 22.932 0 21.6 0Z" fill="#D85A54"/>
+                </svg> Membership</a>
+                <a class="nav-link membership nav-link-sm nav-icon-sm" aria-current="page" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.6 9.6H2.4V2.4H21.6M21.6 15.6H2.4V13.2H21.6M21.6 0H2.4C1.068 0 0 1.068 0 2.4V15.6C0 16.932 1.068 18 2.4 18H7.2V24L12 21.6L16.8 24V18H21.6C22.932 18 24 16.932 24 15.6V2.4C24 1.068 22.932 0 21.6 0Z" fill="#D85A54"/>
+                </svg></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-icon" href="#"><i class="fa-regular fa-message"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-icon" href="#"><i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-icon" href="#"><i class="fa-regular fa-bell"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-link-lg" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="me-2" src="./assets/images/Global.png" alt="">
+                    English
+                </a>
+                <a class="nav-link dropdown-toggle nav-link-sm" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="me-2" src="./assets/images/Global.png" alt="">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 leftSide">
+                <p class="text1">Create New Keyword</p>
+                <p class="text">Keywords that make it easy to find your company and its products in searches</p>
+                <input class="mb-3" placeholder="Enter Keyword" type="text">
+                <div class="d-flex justify-content-center">
+                    <button>Save</button>
+                </div>
+            </div>
+            <div class="col-md-8 rightSide" >
+                <p>Your Keywords</p>
+                <input type="search">
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+<script src="./../../../index.js"></script> 
+<!--Main layout-->
+</body>
+</html>
